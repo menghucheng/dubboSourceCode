@@ -1,0 +1,100 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+将删除 .gitignore
+将删除 .idea/workspace.xml
+将删除 dubbo-cluster/target/
+将删除 dubbo-common/target/
+将删除 dubbo-config/dubbo-config-api/target/
+将删除 dubbo-configcenter/dubbo-configcenter-api/target/
+将删除 dubbo-configcenter/dubbo-configcenter-zookeeper/target/
+将删除 dubbo-container/dubbo-container-api/target/
+将删除 dubbo-demo-mhc/src/
+将删除 dubbo-demo/dubbo-demo-api/dubbo-demo-api-provider/target/
+将删除 dubbo-demo/dubbo-demo-interface/target/
+将删除 dubbo-filter/dubbo-filter-cache/target/
+将删除 dubbo-filter/dubbo-filter-validation/target/
+将删除 dubbo-metadata-report/dubbo-metadata-definition/target/
+将删除 dubbo-metadata-report/dubbo-metadata-report-api/target/
+将删除 dubbo-metadata-report/dubbo-metadata-report-redis/target/
+将删除 dubbo-metadata-report/dubbo-metadata-report-zookeeper/target/
+将删除 dubbo-monitor/dubbo-monitor-api/target/
+将删除 dubbo-plugin/dubbo-qos/target/
+将删除 dubbo-registry/dubbo-registry-api/target/
+将删除 dubbo-registry/dubbo-registry-multicast/target/
+将删除 dubbo-registry/dubbo-registry-zookeeper/target/
+将删除 dubbo-remoting/dubbo-remoting-api/target/
+将删除 dubbo-remoting/dubbo-remoting-netty4/target/
+将删除 dubbo-remoting/dubbo-remoting-zookeeper/target/
+将删除 dubbo-rpc/dubbo-rpc-api/target/
+将删除 dubbo-rpc/dubbo-rpc-dubbo/target/
+将删除 dubbo-rpc/dubbo-rpc-injvm/target/
+将删除 dubbo-serialization/dubbo-serialization-api/target/
+将删除 dubbo-serialization/dubbo-serialization-hessian2/target/
