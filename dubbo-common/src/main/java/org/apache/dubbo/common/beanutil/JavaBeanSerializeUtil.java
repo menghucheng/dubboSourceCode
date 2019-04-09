@@ -92,6 +92,7 @@ public final class JavaBeanSerializeUtil {
         } else if (Map.class.isAssignableFrom(cl)) {
             return new JavaBeanDescriptor(cl.getName(), JavaBeanDescriptor.TYPE_MAP);
         } else {
+            // default type_bean
             return new JavaBeanDescriptor(cl.getName(), JavaBeanDescriptor.TYPE_BEAN);
         }
     }

@@ -24,15 +24,50 @@ import java.util.Map;
 
 public final class JavaBeanDescriptor implements Serializable, Iterable<Map.Entry<Object, Object>> {
 
+    /**
+     * Class对象
+     */
     public static final int TYPE_CLASS = 1;
+
+    /**
+     * Enum 枚举对象
+     */
     public static final int TYPE_ENUM = 2;
+
+    /**
+     * 集合对象
+     */
     public static final int TYPE_COLLECTION = 3;
+
+    /**
+     * Map 对象
+     */
     public static final int TYPE_MAP = 4;
+
+    /**
+     * Array 数组对象
+     */
     public static final int TYPE_ARRAY = 5;
     /**
      * @see org.apache.dubbo.common.utils.ReflectUtils#isPrimitive(Class)
+     * 原型对象 比如:String 、Charcter、Date 、Boolean、Number也是抽象的数据原型
+     *
+     * 基础对象：9种基础对象
+     *    Boolean
+     *    Character
+     *    Byte
+     *    Short
+     *    Integer
+     *    Long
+     *    Float
+     *    Double
+     *    Void
      */
     public static final int TYPE_PRIMITIVE = 6;
+
+    /**
+     *  Bean 类型
+     */
     public static final int TYPE_BEAN = 7;
     private static final long serialVersionUID = -8505586483570518029L;
     private static final String ENUM_PROPERTY_NAME = "name";
